@@ -38,3 +38,7 @@ fun ContohList() {
 // Set bersifat mutable dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
 // Set Read-Only menggunakan setOf
 // Set Mutable menggunakan mutableSetOf
+
+fun ContohSet() {
+    println()
+    println("=== Set ===")
