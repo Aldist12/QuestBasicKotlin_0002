@@ -69,4 +69,6 @@ fun ContohSet() {
 // Map Read-Only meggunakan mapOf
 // Map Mutable menggunakan mutableMapOf
 
-
+fun ContohMap(){
+    println()
+    println("=== Map ===")
