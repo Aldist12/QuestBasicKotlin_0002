@@ -8,3 +8,7 @@ package com.example.questbasickotlin_0002
 
 fun ContohList() {
     println("=== List ===")
+
+    // List Read-Only
+    val readOnlyAbjad = listOf("A", "B", "C")
+    println(readOnlyAbjad)
