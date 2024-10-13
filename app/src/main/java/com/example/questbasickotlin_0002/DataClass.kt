@@ -14,3 +14,7 @@ fun main() {
     val dataClass = DataClass(1, "aldist@gmail.com")
     println(dataClass)
 }
+
+// Fungsi Equals
+val data2 = DataClass(1, "konah@gmail.com")
+println(data == data2) // false
