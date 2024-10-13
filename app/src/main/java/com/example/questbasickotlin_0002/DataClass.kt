@@ -22,3 +22,8 @@ println(data == data2) // false
 // Fungsi Copy
 val data3 = data.copy()
 println(data3)
+
+// Fungsi Copy dengan perubahan
+val data4 = data.copy(email = "Aldiseptiyanto@gmail.com")
+println(data4)
+}
