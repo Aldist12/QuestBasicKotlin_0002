@@ -18,3 +18,7 @@ fun nullSafety() {
     } else {
         println("interferredNonNull")
     }
+
+// Safe call operator
+    println(neverNull.length) // 18
+    println(nullable?.length) // null
