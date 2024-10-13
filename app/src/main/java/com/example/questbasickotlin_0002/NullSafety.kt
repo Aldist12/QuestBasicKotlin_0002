@@ -11,3 +11,10 @@ fun nullSafety() {
     var nullable: String? = "You can keep a null here"
 // This is OK
     nullable = null
+
+    // check for null in conditions
+    if (neverNull == null) {
+        println("interferredNonNull is Null")
+    } else {
+        println("interferredNonNull")
+    }
