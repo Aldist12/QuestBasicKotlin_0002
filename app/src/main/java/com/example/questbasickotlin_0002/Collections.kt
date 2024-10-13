@@ -5,3 +5,6 @@ package com.example.questbasickotlin_0002
 // List bersifat mutable dan read only, artinya data yang dimasukka dapat diubah dan tidak dapat diubah
 // List Read-Only menggunakan listOf
 // List Mutable menggunakan mutableListOf
+
+fun ContohList() {
+    println("=== List ===")
